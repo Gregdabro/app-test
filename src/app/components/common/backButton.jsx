@@ -1,13 +1,11 @@
-import React from "react";
-import { useHistory } from "react-router";
-const BackHistoryButton = () => {
-    const history = useHistory();
-    return (
-        <button className="btn btn-primary" onClick={() => history.goBack()}>
-            <i className="bi bi-caret-left"></i>
-            Назад
-        </button>
-    );
-};
-
-export default BackHistoryButton;
+// import React from "react";
+// const BackHistoryButton = () => {
+//     return (
+//         <button className="btn btn-primary">
+//             <i className="bi bi-caret-left"></i>
+//             Назад
+//         </button>
+//     );
+// };
+//
+// export default BackHistoryButton;
